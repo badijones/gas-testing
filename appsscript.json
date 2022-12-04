@@ -1,0 +1,34 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Sheets",
+        "version": "v4",
+        "serviceId": "sheets"
+      },
+      {
+        "userSymbol": "AnalyticsReporting",
+        "version": "v4",
+        "serviceId": "analyticsreporting"
+      },
+      {
+        "userSymbol": "Analytics",
+        "version": "v3",
+        "serviceId": "analytics"
+      },
+      {
+        "userSymbol": "AnalyticsAdmin",
+        "version": "v1alpha",
+        "serviceId": "analyticsadmin"
+      },
+      {
+        "userSymbol": "TagManager",
+        "version": "v2",
+        "serviceId": "tagmanager"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
